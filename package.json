@@ -1,5 +1,5 @@
 {
-  "name": "react-complete-guide-nextjs",
+  "name": "nextjs-typescript-meetup",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "mongodb": "^4.1.3",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
