@@ -27,7 +27,7 @@ const NewMeetupForm: NextPage<Props> = (props) => {
       title: enteredTitle!,
       image: enteredImage!,
       address: enteredAddress!,
-      description: enteredDescription,
+      description: enteredDescription!,
     };
 
     props.onAddMeetup(meetupData);
